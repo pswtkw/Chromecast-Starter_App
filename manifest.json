@@ -1,0 +1,16 @@
+{
+  "name": "Hello World!",
+  "description": "My first Chrome App.",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js", "cast_Sender.js", "helloVideos.js", "app.js"],
+      "css":     ["style.css"]
+    }
+  },
+  "web_accessible_resources": [
+        "style.css"
+    ],
+  "icons": { "16": "calculator-16.png", "128": "calculator-128.png" }
+}
