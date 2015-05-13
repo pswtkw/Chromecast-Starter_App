@@ -11,6 +11,5 @@
   },
   "web_accessible_resources": [
         "style.css"
-    ],
-  "icons": { "16": "calculator-16.png", "128": "calculator-128.png" }
+    ]
 }
